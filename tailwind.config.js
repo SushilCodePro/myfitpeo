@@ -6,7 +6,12 @@ module.exports = {
     extend: {
       placeholderColor: {
         'white': '#ffffff',
-      }
+      },
+      flex: {
+        '1': '1 1 0%',
+        '2': '2 2 0%',
+        '3': '3 3 0%',
+      },
     },
   },
   variants: {

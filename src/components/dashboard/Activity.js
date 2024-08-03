@@ -65,7 +65,7 @@ function Activity() {
     };
     return (
 
-        <div className="w-full md:flex-3  border border-red-600 h-64 rounded flex flex-col space-y-4 ">
+        <div className="w-full md:flex-2  border border-red-100 h-64 rounded flex flex-col space-y-4">
             <div className="flex justify-between items-center">
                 <h1 className="text-xl text-white font-bold">Activity</h1>
                 <button className="flex items-center bg-gray-700 text-white px-2 rounded">

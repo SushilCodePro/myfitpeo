@@ -11,12 +11,12 @@ import SideBar from "./components/layout/SideBar.js";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto bg-black">
       <NavBar />
       <SideBar />
       <div className="ml-12 mt-13 p-2">
-        <h1 className="text-xl font-bold mb-4">Dashboard</h1>
-        <div className="flex space-y-4 md:space-x-6 md:space-y-0 flex-col md:flex-row">
+        <h1 className="text-xl text-white font-bold mb-4">Dashboard</h1>
+        <div className="flex space-y-4 flex-col md:space-x-6 md:space-y-0 md:flex-row">
           <Dashboard />
           <NetProfit />
         </div>

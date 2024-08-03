@@ -4,7 +4,7 @@ function Feedback() {
 
     return (
 
-        <div className="w-full md:flex-1 h-44 bg-purple-500"></div>
+        <div className="w-full md:flex-1 h-60 bg-purple-500"></div>
 
     );
 }

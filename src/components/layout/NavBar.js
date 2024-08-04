@@ -11,7 +11,7 @@ function NavBar() {
         setIsHidden(!isHidden);
     }
     return (
-        <div className="bg-gray-700 h-auto flex items-center flex-col sm:flex-row space-y-1 sm:space-y-0 ml-12 ">
+        <div className="bg-gray-700  h-auto flex items-center flex-col sm:flex-row space-y-1 sm:space-y-0 ml-12">
             <div className='w-full sm:flex-1 flex items-center p-1 justify-between sm:justify-normal'>
                 {/* <div className='icon'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-10 text-blue-500 ml-1">

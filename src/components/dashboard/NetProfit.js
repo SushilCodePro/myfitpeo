@@ -5,7 +5,7 @@ function NetProfit() {
     const percentage = 70;
     return (
 
-        <div className=" flex w-full md:flex-1 h-40 bg-gray-700 md:ml-2 items-center rounded">
+        <div className=" flex w-full md:flex-1 h-40 bg-gray-700 md:ml-2 items-center rounded p-4">
             <div className=' flex-1 flex flex-col justify-around space-y-6'>
                 <p className='text-white font-bold text-sm'>Net Profit</p>
                 <p className='text-white font-bold text-3xl'>$ 6759.74</p>

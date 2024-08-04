@@ -2,7 +2,7 @@
 function SideBar() {
 
     return (
-        <div className="flex flex-col  bg-gray-700 w-10 h-screen items-center py-2 fixed">
+        <div className="flex flex-col bg-gray-700 w-12 h-screen items-center py-2 fixed">
             <div className="flex-1 space-y-6">
                 <div className=''>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 text-blue-600">

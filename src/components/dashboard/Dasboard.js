@@ -4,7 +4,7 @@ function Dashboard() {
 
     return (
 
-        <div className="w-full flex flex-col space-y-4 h-auto md:space-y-0 md:flex-row md:space-x-2 md:flex-2">
+        <div className="w-full flex flex-col space-y-4 h-auto  md:space-y-0 md:flex-row md:space-x-2 lg:flex-2">
             <div className="w-full   md:flex-1 bg-gray-700 min-h-40 flex flex-col p-4 rounded">
                 {/* <span className="text-white">Red</span> */}
                 <div className="flex flex-2 flex-col justify-around">

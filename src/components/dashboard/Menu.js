@@ -4,7 +4,7 @@ function Menu() {
 
     return (
 
-        <div className="flex flex-col justify-around w-full md:flex-1 h-64 bg-gray-700 md:ml-2 rounded p-4">
+        <div className=" w-full flex flex-col justify-around  lg:flex-1 h-64 bg-gray-700 lg:ml-2 rounded p-4">
             <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-3">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-12 text-red-500 bg-red-300 p-1 rounded-full">

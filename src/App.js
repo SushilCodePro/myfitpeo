@@ -11,7 +11,7 @@ import SideBar from "./components/layout/SideBar.js";
 
 function App() {
   return (
-    <div className="container mx-auto bg-black">
+    <div className="mx-auto bg-black">
       {/* <NavBar /> */}
       {/* <div className="flex">
         <SideBar />
@@ -36,11 +36,11 @@ function App() {
       <SideBar />
       <div className="ml-12 mt-13 p-2 ">
         <h1 className="text-xl text-white font-bold mb-4">Dashboard</h1>
-        <div className="flex space-y-4 flex-col md:space-x-6 md:space-y-0 md:flex-row">
+        <div className="flex space-y-4 flex-col lg:space-x-6 lg:space-y-0 lg:flex-row">
           <Dashboard />
           <NetProfit />
         </div>
-        <div className="flex space-y-4 md:space-x-6 md:space-y-0 flex-col md:flex-row mt-4">
+        <div className="flex space-y-4 lg:space-x-6 lg:space-y-0 flex-col lg:flex-row mt-4">
           <Activity />
           <Menu />
         </div>
